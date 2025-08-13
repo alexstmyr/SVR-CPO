@@ -1,3 +1,9 @@
+sortino_daily_LowCap filter=lfs diff=lfs merge=lfs -text
+sortino_daily_MidCap filter=lfs diff=lfs merge=lfs -text
+sharpe_daily_HighCap filter=lfs diff=lfs merge=lfs -text
+sharpe_daily_LowCap filter=lfs diff=lfs merge=lfs -text
+sharpe_daily_MidCap filter=lfs diff=lfs merge=lfs -text
+sortino_daily_HighCap filter=lfs diff=lfs merge=lfs -text
 daily_dbs/sortino_daily_*.csv filter=lfs diff=lfs merge=lfs -text
 daily_dbs/sharpe_daily_*.csv filter=lfs diff=lfs merge=lfs -text
 daily_dbs/sharpe_tuning.csv filter=lfs diff=lfs merge=lfs -text
